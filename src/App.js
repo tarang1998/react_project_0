@@ -6,7 +6,7 @@ import Dashboard from './components/dashboard/Dashboard';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="APP">
         <Navbar/>
         <Switch>
           <Route path='/' component={Dashboard}/>
