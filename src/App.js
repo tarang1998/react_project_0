@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar/>
+s        <Navbar/>
         <Switch>
           <Route path='/' component={Dashboard}/>
         </Switch>
